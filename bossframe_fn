@@ -156,6 +156,7 @@ local function CreateBossLayout(self, unit)
     self.Debuffs['growth-y'] = 'DOWN'
     self.Debuffs.numBuffs = 8
     self.Debuffs.spacing = 4.5
+    self.Debuffs.onlyShowPlayer = true
 
     self.Buffs = CreateFrame('Frame', nil, self)
     self.Buffs.size = 30
